@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif-cormorant: 'Cormorant Garamond', Georgia, serif;
+  --font-serif-playfair: 'Playfair Display', Georgia, serif;
+  --font-sans-montserrat: 'Montserrat', sans-serif;
+  --font-sans-lato: 'Lato', sans-serif;
+
+  --color-main-beige: #F3EBDD;
+  --color-secondary-cream: #F8F3EA;
+  --color-card-offwhite: #FFF9F0;
+  --color-section-softbeige: #EDE2D0;
+  --color-gold-accent: #B89A62;
+  --color-gold-dark: #9A7B48;
+  --color-text-dark: #2B2520;
+  --color-text-muted: #7A7165;
+  --color-header-bg: #FAF5ED;
+}
+
+/* Custom scrollbar and smooth utilities */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F3EBDD;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #B89A62;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9A7B48;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #F3EBDD;
+  color: #2B2520;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #F3EBDD;
+  color: #2B2520;
+  overflow-x: hidden;
+}
+
+.font-cormorant {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-playfair {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.font-lato {
+  font-family: 'Lato', sans-serif;
+}

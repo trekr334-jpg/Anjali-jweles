@@ -1,0 +1,6 @@
+{
+  "name": "ANJALI JEWELS — Ultra-Premium Luxury Jewellery",
+  "description": "Discover the art of timeless elegance with ANJALI JEWELS. Handcrafted Indian luxury bridal, temple, kundan, and heritage jewellery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
